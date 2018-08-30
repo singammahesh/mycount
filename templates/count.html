@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>result page</h1>
+<h2>your content</h2>
+{{data}}
+<h3>this text contains.{{length}} words</h3>
+<hr />
+<h3>all words count</h3>
+<ol type="1">
+{% for a,b in abc.items %}
+    <li>{{a}}={{b}}</li>
+{% endfor %}
+</ol>
+
+<hr />
+<h3>all words count---</h3>
+<ol type="1">
+    {% for a,b in dec %}
+    <li>{{a}}={{b}}</li>
+    {% endfor %}
+</ol>
+
+
+</body>
+</html>
